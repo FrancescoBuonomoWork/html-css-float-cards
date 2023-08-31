@@ -16,6 +16,13 @@ img {
 .float-right {
     float: right;
 }
+/* CLEARFIX */
+.clearfix::after {
+   content: "";
+   display: table;
+   clear: both;
+    
+}
 /* Containers */
 .container-header {
     max-width: 800px;
@@ -40,12 +47,15 @@ img {
 }
 
 /* Carte del personale */
-.personal-card {
+.person-card {
+   background-color: #222222;
+    color: white;
+    margin: 15px;
    
     
 }
 .person-info{
-    padding: 6px;
+    padding: 5px;
 }
 .name-surname {
     font-weight: 700;
@@ -60,21 +70,14 @@ img {
     display: inline-block;
     
 }
-/* CLEARFIX */
-.personal-card::after {
-   content: "";
-   display: table;
-   clear: both;
-    
-}
+
 
 /* DEBUG */
 .debug {
     /* border: 2px solid black; */
-    width: 300px;
+    /* width: 200px; */
     /* width: 33%; */
-    background-color: #222222;
-    color: white;
+    
     
 
     
