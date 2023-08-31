@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    font-family: 'Fredoka', sans-serif;
+}
+
+/* Containers */
+.container-header {
+    max-width: 700px;
+    margin: 0 auto;
+}
+.container-main {
+    max-width: 700px;
+    margin: 0 auto;
+}
+.container-footer {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: #222222;
+}
+
+
+/* Header  */
+.title {
+    color: #e53170;
+    text-align: center;
+    padding: 20px 0;
+}
