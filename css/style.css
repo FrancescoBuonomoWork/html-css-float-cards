@@ -54,6 +54,10 @@ img {
     color: #69b1b9;
 }
 .name-surname,.email, .work-name {
+    padding: 6px;
+}
+.person-info {
+    display: inline-block;
     
 }
 /* CLEARFIX */
