@@ -16,6 +16,9 @@ img {
 .float-right {
     float: right;
 }
+.background-black{
+    background-color: #222222;
+}
 /* CLEARFIX */
 .clearfix::after {
    content: "";
@@ -35,7 +38,8 @@ img {
 .container-footer {
     max-width: 1000px;
     margin: 0 auto;
-    background-color: #222222;
+   
+   
 }
 
 
@@ -54,11 +58,16 @@ img {
    background-color: #222222;
     color: white;
     margin-right: 20px;
+    
    /* questa operazione con calc prende il 100% della larghezza leva 40px che sono i margin right dei primi 2 elementi e li divide per 3  */
-    width: calc((100%-40px) / 3);
-   
+    /* width: calc((100%-40px) / 3); */
+    width: calc((100%-80px) / 6);
+    margin-bottom: 40px;
 }
 .person-card:nth-of-type(3){
+    margin-right: 0;
+}
+.person-card:nth-of-type(6){
     margin-right: 0;
 }
 .person-info{
@@ -78,9 +87,17 @@ img {
     
 }
 
+/* FOOTER  */
+.footer-text{
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+
+
 
 /* DEBUG */
-.debug {
+/* .debug { */
     /* border: 2px solid black; */
     /* width: 200px; */
     /* width: 33%; */
@@ -89,8 +106,8 @@ img {
 
     
     
-}
-.debug p {
+/* } */
+/* .debug p { */
  /* padding: 6px; */
 
-}
+/* } */
