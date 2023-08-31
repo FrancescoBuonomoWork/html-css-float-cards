@@ -25,15 +25,15 @@ img {
 }
 /* Containers */
 .container-header {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 .container-main {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 .container-footer {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
     background-color: #222222;
 }
@@ -45,14 +45,21 @@ img {
     text-align: center;
     padding: 20px 0;
 }
-
+/* intro / primo p  */
+.intro {
+    margin-bottom: 30px;
+}
 /* Carte del personale */
 .person-card {
    background-color: #222222;
     color: white;
-    margin: 15px;
+    margin-right: 20px;
+   /* questa operazione con calc prende il 100% della larghezza leva 40px che sono i margin right dei primi 2 elementi e li divide per 3  */
+    width: calc((100%-40px) / 3);
    
-    
+}
+.person-card:nth-of-type(3){
+    margin-right: 0;
 }
 .person-info{
     padding: 5px;
